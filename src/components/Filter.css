@@ -1,0 +1,21 @@
+.filter-label-container{
+    display:flex;
+    gap:15px;
+    overflow-wrap: wrap;
+}
+.filter-labels{
+    max-width: 60px;
+    text-align: center;
+    border:1px solid rgb(109, 101, 101);
+    background-color: aliceblue;
+    color:black;
+    padding:10px 20px;
+    border-radius: 20px;
+}
+.filter-labels:hover{
+    cursor:pointer;
+}
+.filter-labels.selected{
+    color:white;
+    background-color: rgb(104, 104, 211);
+}
