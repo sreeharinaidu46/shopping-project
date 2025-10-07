@@ -36,7 +36,7 @@ const addToCart=(prod)=>{
     setSelectedProduct(null)
 }
 const removeFromCart=(prod)=>{
-    let newcartItems=cartItems.filter((data)=>data.id!==product.id)
+    let newcartItems=cartItems.filter((data)=>data.id!==prod.id)
     setCartItems(newcartItems)
     console.log("after removing",cartItems)
     setModel(false)
